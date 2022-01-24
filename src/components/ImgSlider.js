@@ -3,10 +3,7 @@ import styled from 'styled-components';
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import m1 from "../images/slider-badging.jpg"
-import m2 from "../images/slider-badag.jpg"
-import m3 from "../images/slider-scale.jpg"
-import m4 from "../images/slider-scales.jpg"
+
 function ImgSlider() {
 
     let settings = {
@@ -21,16 +18,16 @@ function ImgSlider() {
     return (
         <Carousel {...settings}>
             <Wrap>
-                <img src={m1} alt="" />
+                <img src="images/slider-badging.jpg" alt="" />
             </Wrap>
             <Wrap>
-                <img src={m2} alt="" />
+                <img src="images/slider-badag.jpg" alt="" />
             </Wrap>
             <Wrap>
-                <img src={m3} alt="" />
+                <img src="images/slider-scale.jpg" alt="" />
             </Wrap>
             <Wrap>
-                <img src={m4} alt="" />
+                <img src="images/slider-scales.jpg" alt="" />
             </Wrap>
         </Carousel>
     )

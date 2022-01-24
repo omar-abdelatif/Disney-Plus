@@ -1,39 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
-import Img1 from "../images/viewers-marvel.png"
-import Img2 from "../images/viewers-pixar.png"
-import Img3 from "../images/viewers-disney.png"
-import Img4 from "../images/viewers-starwars.png"
-import Img5 from "../images/viewers-national.png"
-import V1 from "../videos/1564674844-disney.mp4"
-import V2 from "../videos/1564676714-pixar.mp4"
-import V3 from "../videos/1564676115-marvel.mp4"
-import V4 from "../videos/1608229455-star-wars.mp4"
-import V5 from "../videos/1564676296-national-geographic.mp4"
-
 
 function Viewers() {
     return (
         <Container>
             <Wrap>
-                <img src={Img1} alt="" />
-                <video src={V1} autoPlay muted loop></video>
+                <img src="images/viewers-disney.png" alt="" />
+                <video src="videos/1564674844-disney.mp4" autoPlay muted loop></video>
             </Wrap>
             <Wrap>
-                <img src={Img2} alt="" />
-                <video src={V2} autoPlay muted loop></video>
+                <img src="images/viewers-pixar.png" alt="" />
+                <video src="videos/1564676714-pixar.mp4" autoPlay muted loop></video>
             </Wrap>
             <Wrap>
-                <img src={Img3} alt="" />
-                <video src={V3} autoPlay muted loop></video>
+                <img src="images/viewers-marvel.png" alt="" />
+                <video src="videos/1564676115-marvel.mp4" autoPlay muted loop></video>
             </Wrap>
             <Wrap>
-                <img src={Img4} alt="" />
-                <video src={V4} autoPlay muted loop></video>
+                <img src="images/viewers-starwars.png" alt="" />
+                <video src="videos/1608229455-star-wars.mp4" autoPlay muted loop></video>
             </Wrap>
             <Wrap>
-                <img src={Img5} alt="" />
-                <video src={V5} autoPlay muted loop></video>
+                <img src="images/viewers-national.png" alt="" />
+                <video src="videos/1564676296-national-geographic.mp4" autoPlay muted loop></video>
             </Wrap>
         </Container>
     )

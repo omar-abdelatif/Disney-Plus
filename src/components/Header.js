@@ -2,61 +2,55 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import styled from 'styled-components'
-import LOGO from "../images/logo.svg"
-import Logo1 from "../images/home-icon.svg"
-import Logo2 from "../images/search-icon.svg"
-import Logo3 from "../images/watchlist-icon.svg"
-import Logo4 from "../images/original-icon.svg"
-import Logo5 from "../images/movie-icon.svg"
-import Logo6 from "../images/series-icon.svg"
-import User from "../images/user-image.jpg"
-
 
 function Header() {
+
     let [New, setNew] = useState(false);
+
     const HandelNavbar = () => {
         return New ? setNew(false) : null
     }
     const HandelClick = () => {
         New = setNew(!New);
     }
+
     return (
         <Nav onClick={HandelNavbar}>
             <Link className="link" to="/">
-                <Logo src={LOGO} />
+                <Logo src="images/logo.svg" />
             </Link>
             <NavBar>
                 <NavMenu className={
                     New ? "NavBar" : ""
                 }>
                     <Link className="link" to="/">
-                        <img src={Logo1} />
+                        <img src="images/home-icon.svg" />
                         <span>HOME</span>
                     </Link>
                     <a className="link" >
-                        <img src={Logo2} />
+                        <img src="images/search-icon.svg" />
                         <span>SEARCH</span>
                     </a>
                     <a className="link" >
-                        <img src={Logo3} />
+                        <img src="images/watchlist-icon.svg" />
                         <span>WATCHLIST</span>
                     </a>
                     <a className="link" >
-                        <img src={Logo4} />
+                        <img src="images/original-icon.svg" />
                         <span>ORIGINAL</span>
                     </a>
                     <Link className="link" to="/movies">
-                        <img src={Logo5} />
+                        <img src="images/movie-icon.svg" />
                         <span>MOVIES</span>
                     </Link>
                     <a className="link" >
-                        <img src={Logo6} />
+                        <img src="images/series-icon.svg" />
                         <span>SERIES</span>
                     </a>
                 </NavMenu>
                 <RightPart>
                     <Link to="/login">
-                        <UserImg src={User} />
+                        <UserImg src="images/user-image.jpg" />
                     </Link>
                     <Icon>
                         <button onClick={HandelClick} >
