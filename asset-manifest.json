@@ -1,24 +1,17 @@
 {
   "files": {
-    "main.css": "/Disney-Plus/static/css/main.53c1783b.chunk.css",
-    "main.js": "/Disney-Plus/static/js/main.f234a203.chunk.js",
-    "main.js.map": "/Disney-Plus/static/js/main.f234a203.chunk.js.map",
-    "runtime-main.js": "/Disney-Plus/static/js/runtime-main.5ce4ced2.js",
-    "runtime-main.js.map": "/Disney-Plus/static/js/runtime-main.5ce4ced2.js.map",
-    "static/css/2.d2fb1ee7.chunk.css": "/Disney-Plus/static/css/2.d2fb1ee7.chunk.css",
-    "static/js/2.29d03874.chunk.js": "/Disney-Plus/static/js/2.29d03874.chunk.js",
-    "static/js/2.29d03874.chunk.js.map": "/Disney-Plus/static/js/2.29d03874.chunk.js.map",
+    "main.css": "/Disney-Plus/static/css/main.91c61250.css",
+    "main.js": "/Disney-Plus/static/js/main.e05388bf.js",
+    "static/media/slick.svg": "/Disney-Plus/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Disney-Plus/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Disney-Plus/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Disney-Plus/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Disney-Plus/index.html",
-    "static/css/2.d2fb1ee7.chunk.css.map": "/Disney-Plus/static/css/2.d2fb1ee7.chunk.css.map",
-    "static/css/main.53c1783b.chunk.css.map": "/Disney-Plus/static/css/main.53c1783b.chunk.css.map",
-    "static/js/2.29d03874.chunk.js.LICENSE.txt": "/Disney-Plus/static/js/2.29d03874.chunk.js.LICENSE.txt",
-    "static/media/slick-theme.css": "/Disney-Plus/static/media/slick.c94f7671.ttf"
+    "main.91c61250.css.map": "/Disney-Plus/static/css/main.91c61250.css.map",
+    "main.e05388bf.js.map": "/Disney-Plus/static/js/main.e05388bf.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ce4ced2.js",
-    "static/css/2.d2fb1ee7.chunk.css",
-    "static/js/2.29d03874.chunk.js",
-    "static/css/main.53c1783b.chunk.css",
-    "static/js/main.f234a203.chunk.js"
+    "static/css/main.91c61250.css",
+    "static/js/main.e05388bf.js"
   ]
 }
