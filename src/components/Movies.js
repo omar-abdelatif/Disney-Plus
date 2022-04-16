@@ -14,8 +14,7 @@ function Movies() {
                             <img src={movie.CardImg} />
                         </Link>
                     </Wrap>
-                ))
-                }
+                ))}
             </Content>
         </Container >
     )
